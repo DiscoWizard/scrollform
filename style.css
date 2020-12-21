@@ -108,9 +108,9 @@ green: 8CC63F
   padding: 0;
 }
 .phone {
-  display: block;
+  /* display: block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
   height: 100vh;
   width: 100vw;
 }
