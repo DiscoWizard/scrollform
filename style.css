@@ -58,13 +58,16 @@ h3 {
 
 .container {
   position: relative;
-  background-color: white;
+  background-color: black;
   margin: 20px;
+  padding-bottom: 30px;
 }
 
 .square {
   display:inline-block;
   position: relative;
+  margin: 30px;
+  margin-bottom: 0px;
 }
 
 img {
