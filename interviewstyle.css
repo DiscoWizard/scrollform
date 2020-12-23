@@ -36,6 +36,11 @@ h1 {
   font-size: 40px;
   line-height: 1;
 }
+h2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+}
 h3 {
   font-weight: 600;
   font-size: 15px;
@@ -80,11 +85,10 @@ img {
   position: relative;
 }
 
-/* br {
-  display: block;
-  content: "";
-  margin-top: 10px;
-} */
+.pull {
+  font-weight: lighter;
+  /* color: #FBB03B; */
+}
 
 
 orange: F15A24
