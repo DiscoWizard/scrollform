@@ -1,0 +1,167 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 15px;
+  line-height: 1.4;
+  background-color: black;
+  font-family: 'Source Code Pro', monospace;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+#head {
+  position: fixed;
+  height: 40px;
+  width: 100%;
+  background-color: black;
+  border-style: none none solid none;
+  border-color: white;
+  border-width: thin;
+  color:white;
+  padding: 10px;
+  z-index: 10;
+}
+#logo {
+  position: absolute;
+  height: 40px;
+  width: auto;
+  padding-left: 10px
+}
+h1 {
+  position: absolute;
+  font-weight: 600;
+  color:#F15A24;
+  text-decoration: none;
+  font-size: 40px;
+  padding-left: 65px;
+  top:-25px;
+}
+h2 {
+  position: relative;
+  font-weight: lighter;
+  font-size: 13px;
+  line-height: 1.5;
+  color: white;
+}
+#subboxt {
+  position: fixed;
+  left: 345px;
+  width:450px;
+  top:0px;
+}
+#social {
+  position: fixed;
+  right:20px;
+  top:20px;
+}
+#linkz {
+  position: fixed;
+  right:60px;
+  top:19px;
+}
+a {
+  text-decoration: underline;
+  color:#F15A24;
+}
+
+.storiescontainer {
+  position: absolute;
+  top:60px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100%;
+  height: auto;
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.storycontainer {
+  top: 0px;
+  position: relative;
+  display: block;
+  background-color: white;
+  width:400px;
+  height: 93vh;
+  overflow-y: scroll;
+}
+.story {
+  padding-top:10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 100px;
+}
+.mainicon {
+  height: 180px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.iconbox {
+  margin-top:40px;
+  margin-bottom:40px;
+  width:100%;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+h4 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.imge {
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+orange: F15A24
+pink: D4145A
+light orange: FBB03B
+yellow: D9E021
+green: 8CC63F
+
+
+.storycontainer::-webkit-scrollbar-track
+{
+	background-color: #white;
+  border: 2px solid black;
+}
+
+.storycontainer::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: white;
+  border: 1px solid black;
+}
+
+.storycontainer::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
+
+
+
+@media only screen and (max-width: 950px) {
+#subboxt {
+  display: none;
+}
+
+}
