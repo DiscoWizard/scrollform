@@ -89,6 +89,7 @@ a:hover {
   background-color: white;
   width:400px;
   min-width:400px;
+  max-width:100vw;
   height: 90vh;
   overflow-y: scroll;
 }
@@ -193,5 +194,10 @@ green: 8CC63F
 #subboxt {
   display: none;
 }
+}
 
+@media only screen and (max-width: 500px) {
+  h1 {
+    display: none;
+  }
 }
