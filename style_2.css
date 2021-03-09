@@ -78,7 +78,7 @@ a:hover {
   overflow-y: hidden;
   width: 100%;
   height: auto;
-  background-color: grey;
+  background-color: white;
   display: flex;
   flex-direction: row;
 }
@@ -138,7 +138,45 @@ h4 {
   z-index: 1000;
 }
 
+#carmis {
+}
+#radss {
+}
+#rileys {
+}
+#vulcans {
+}
+#florals {
+}
+#harrys {
+}
 
+
+/* about page */
+.acontainer {
+  position: absolute;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+#atext {
+  position: relative;
+  width:auto;
+  background-color: white;
+  top:100px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 30px;
+}
+.pull {
+  font-weight: lighter;
+}
+h5 {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
 
 
 
@@ -151,44 +189,47 @@ light orange: FBB03B
 yellow: D9E021
 green: 8CC63F
 
-/* vertical scrollbar */
-.storycontainer::-webkit-scrollbar-track
-{
+/* HOMEPAGE vertical scrollbar */
+.storycontainer::-webkit-scrollbar-track {
 	background-color: #white;
   border: 2px solid black;
 }
-
-.storycontainer::-webkit-scrollbar
-{
+.storycontainer::-webkit-scrollbar {
 	width: 10px;
 	background-color: white;
   border: 1px solid black;
 }
-
-.storycontainer::-webkit-scrollbar-thumb
-{
+.storycontainer::-webkit-scrollbar-thumb {
 	background-color: #000000;
 }
 
-/* horizontal scrollbar */
-.storiescontainer::-webkit-scrollbar-track
-{
+/* HOMEPAGE horizontal scrollbar */
+.storiescontainer::-webkit-scrollbar-track {
 	background-color: #white;
   border: 1px solid black;
 }
-
-.storiescontainer::-webkit-scrollbar
-{
+.storiescontainer::-webkit-scrollbar {
 	height: 60px;
 	background-color: white;
   border: 1px solid black;
 }
-
-.storiescontainer::-webkit-scrollbar-thumb
-{
+.storiescontainer::-webkit-scrollbar-thumb {
 	background-color: #000000;
 }
 
+/* HOMEPAGE vertical scrollbar */
+.acontainer::-webkit-scrollbar-track {
+	background-color: #white;
+  border: 1px solid black;
+}
+.acontainer::-webkit-scrollbar {
+	width: 10px;
+	background-color: white;
+  border: 1px solid black;
+}
+.acontainer::-webkit-scrollbar-thumb {
+	background-color: #000000;
+}
 
 @media only screen and (max-width: 950px) {
 #subboxt {
