@@ -247,4 +247,7 @@ green: 8CC63F
   h1 {
     display: none;
   }
+  #scrollfloat {
+    font-size: 12px;
+  }
 }
