@@ -241,6 +241,10 @@ green: 8CC63F
 #subboxt {
   display: none;
 }
+#atext {
+  margin-left: 1%;
+  margin-right: 1%;
+}
 }
 
 @media only screen and (max-width: 500px) {
