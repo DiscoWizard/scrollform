@@ -130,14 +130,15 @@ h4 {
 }
 #scrollfloat {
   position: fixed;
+  right: 0px;
   bottom: 0px;
-  left: 0px;
   font-size: 15px;
   font-weight: bolder;
   color:#F15A24;
   z-index: 1000;
   background-color: black;
   padding: 3px;
+  z-index: 1000;
 }
 
 #carmis {
